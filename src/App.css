@@ -1,7 +1,43 @@
 .App {
   text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-content: center;
+  background-image: url('https://cdn.kimkim.com/files/a/content_articles/featured_photos/ae045684662d0b448166cc7ec8872cef6a6ca5da/big-5be99672f7456c55513893af3a3dd3b7.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.horny-card {
+  display: inline-block;
+  border: 5px double black;
+  width: 250px;
+  border-radius: 20px;
+  margin: 20px;
+  background-color: rgba(34, 139, 34, 0.637);
+  color: white;
 }
 
 .rendered-image {
-  width: 150px;
+  width: 200px;
+  height: 200px;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
